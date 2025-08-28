@@ -5,4 +5,8 @@ uuid
 json
 datetime
 reportlab
+rich
+markdown-it-py
+mdurl
+pygments
 

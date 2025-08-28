@@ -1,0 +1,8 @@
+streamlit
+groq
+python-dotenv
+uuid
+json
+datetime
+reportlab
+re

@@ -10,11 +10,6 @@ The TalentScout Hiring Assistant Dashboard is an enhanced version of the Hiring 
   - Maintains conversation context and handles unexpected inputs.
   - Ends conversations gracefully with next steps.
 - **Chat History**: Persists all interactions in `chat_history.json` with timestamps.
-- **Dashboard**:
-  - Displays candidate analytics (e.g., total candidates processed).
-  - Visualizes tech stack distribution using Plotly pie charts.
-  - Shows chat history with expandable timestamps.
-- **Data Privacy**: Uses simulated storage (`candidate_data.json`) with anonymized data, adhering to GDPR best practices.
 
 ## Installation Instructions
 1. Clone the repository:

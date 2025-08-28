@@ -1,8 +1,6 @@
 streamlit
 groq
 python-dotenv
-uuid
-json
 datetime
 rich
 markdown-it-py

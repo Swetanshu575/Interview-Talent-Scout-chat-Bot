@@ -15,3 +15,4 @@ The TalentScout Hiring Assistant Dashboard is an enhanced version of the Hiring 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/talentscout-hiring-assistant.git
+   pip install -r requirements.txt

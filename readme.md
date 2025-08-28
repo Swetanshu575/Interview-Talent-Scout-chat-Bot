@@ -18,3 +18,6 @@ The TalentScout Hiring Assistant Dashboard is an enhanced version of the Hiring 
    pip install -r requirements.txt
 2. Create a folder name .streamlit and then Create a file name secrets.toml inside the .streamlit:
 3. Now Access the Groq API key and paste it in Secrets.toml using VS Code editor and then Paste in this format :-  GROQ_API_KEY = "your api key "
+4. Running the code :-
+   ```bash
+   streamlit run TalentScoutmain.py 

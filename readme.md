@@ -28,7 +28,7 @@ re: Input validation (email, phone).
 json: Simulated data and chat history storage.
 logging: Debugging and logging.
 
-LLM: Simulated using Grok's capabilities (replaceable with xAI's API: https://x.ai/api).
+LLM:used Groq Api
 Architecture:Modular design with hiring_assistant.py for chatbot logic and dashboard.py for the main app.
 Uses Streamlit's session state for conversation context and JSON files for persistent storage.
 

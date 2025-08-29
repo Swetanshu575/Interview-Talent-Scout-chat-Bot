@@ -66,8 +66,8 @@ class TechAnswer:
 # -----------------------------
 # LLM System Prompts
 # -----------------------------
-MODEL_DEFAULT = "llama3-8b-8192"  # Changed to a valid Groq model
-MODEL_STRICT = "llama3-70b-8192"  # Changed to a valid Groq model
+MODEL_DEFAULT = "qwen/qwen3-32b"  # Changed to a valid Groq model
+MODEL_STRICT = "qwen/qwen3-32b"  # Changed to a valid Groq model
 
 SYSTEM_INTERVIEWER = """You are TalentScout, an expert technical interviewer. Your role is to:
 1. Generate relevant technical questions based on candidate's experience and stack

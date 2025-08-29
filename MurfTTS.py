@@ -109,6 +109,25 @@ def ask_greeting():
 # -----------------------------
 # Main App
 # -----------------------------
+def init_state():
+    """Initialize Streamlit session state variables."""
+    if "stage" not in st.session_state:
+        st.session_state.stage = "greeting"
+    if "name" not in st.session_state:
+        st.session_state.name = ""
+    if "email" not in st.session_state:
+        st.session_state.email = ""
+    if "q1" not in st.session_state:
+        st.session_state.q1 = ""
+    if "q2" not in st.session_state:
+        st.session_state.q2 = ""
+    if "q3" not in st.session_state:
+        st.session_state.q3 = ""
+    if "q4" not in st.session_state:
+        st.session_state.q4 = ""
+    if "q5" not in st.session_state:
+        st.session_state.q5 = ""
+
 def main():
     st.set_page_config(page_title="TalentScout LLM Interview", page_icon="🤖", layout="wide")
     init_state()
